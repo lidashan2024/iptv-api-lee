@@ -1,12 +1,21 @@
 # 这是订阅源列表，每行一个订阅地址
 # 支持设置UA：https://xxx.com/subscribe.m3u UA="xxx"
-# This is a list of subscription sources, with one subscription address per line
-# Supports setting UA: https://xxx.com/subscribe.m3u UA="xxx"
 
+# 范明明 Live：央视频道+各省卫视，国内最常用
+https://live.fanmingming.com/tv/m3u/ipv6.m3u
+
+# iptv-org 中国频道合集（国际开源项目维护）
+https://iptv-org.github.io/iptv/countries/cn.m3u
+
+# YanG-1989 聚合源：多来源汇总的央卫视及地方频道
+https://raw.githubusercontent.com/YanG-1989/m3u/main/Gather.m3u
+
+# kimwang1978 聚合源（txt 格式）
+https://raw.githubusercontent.com/kimwang1978/collect-tv-txt/main/merged_output.txt
 
 
 
 
 [WHITELIST]
-# 以下是订阅源的白名单，白名单内的订阅源获取的接口将不会参与测速，始终保留至结果最前。
-# This is the whitelist for subscription sources. Subscription sources in the whitelist will not participate in speed testing and will always be retained at the front of the results.
+# 白名单内的订阅源获取的接口将不会参与测速，始终保留至结果最前。
+
